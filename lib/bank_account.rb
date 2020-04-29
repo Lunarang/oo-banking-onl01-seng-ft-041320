@@ -17,6 +17,13 @@ class BankAccount
     "Your balance is $#{self.balance}."
   end
     
-  def valid? ()
-    if 
+  def valid? (account)
+    if account.balance > 0 && account.status = "open" 
+      TRUE 
+    else 
+      FALSE
+    end
+  end 
+  
+  
 end
