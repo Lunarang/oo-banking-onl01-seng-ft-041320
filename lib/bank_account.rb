@@ -9,7 +9,7 @@ class BankAccount
   end 
   
   def deposit (amount)
-    @balance = @balance + amount
+    @balance += amount
   end
   
   def display_balance 
@@ -24,5 +24,6 @@ class BankAccount
     end
   end 
   
+  def close_account
   
 end
