@@ -6,6 +6,12 @@ class BankAccount
     @name = name
     @balance = 1000
     @status = "open"
-    
+  end 
+  
+  def deposit (amount)
+    total = @balance + amount
+    total 
+  end
+  
     
 end
