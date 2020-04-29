@@ -8,4 +8,12 @@ class Transfer
     @transfer_amount = amount
   end
   
+  def valid?
+    if @sender.valid? == TRUE && @receiver.valid? == TRUE
+      TRUE
+    else 
+      FALSE 
+    end
+  end
+  
 end
